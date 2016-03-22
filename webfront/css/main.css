@@ -1,0 +1,138 @@
+*{
+	margin:0;
+	padding:0
+}
+
+body{
+	font-family: gill;
+}
+
+@font-face{
+	font-family:gill;
+	src:url('../fonts/gillsans.ttf');
+}
+
+.song{
+	font-family:gill;
+	font-size:7em;
+	position:absolute;
+	top:1.6em;
+	left:4.1em;
+	letter-spacing:.15em;
+}
+
+.boxes h1{
+	font-size: 19px;
+	font-weight: normal;
+
+}
+.exten{
+	font-family:gill;
+	font-size:1.5em;
+	text-transform:uppercase;
+	position:absolute;
+	top:11.5em;
+	left:17em;
+	letter-spacing:.2em;
+}
+
+.area1{
+	font-size:1em;
+	position:absolute;
+	top:21.15em;
+	left:21.4em;
+	width:30em;
+	height:2em;
+}
+
+.area2{
+	font-size: 1em;
+	position: absolute;
+	top: 2em;
+	left: 15em;
+	width:30em;
+	height:2em;
+
+}
+
+.opt{
+	font-size:1em;
+	position:absolute;
+	top:21.15em;
+	left:53em;
+	width:10em;
+	height:2em;
+}
+
+.butt1{
+	font-size:1em;
+	position:absolute;
+	top:25.5em;
+	left:34.5em;
+	width:6em;
+	height:1.5em;
+}
+
+.butt11{
+	font-size:1em;
+	position:absolute;
+	top:2.25em;
+	left:56.5em;
+	width:6em;
+	height:1.5em;
+}
+
+.butt2{
+	font-size:1em;
+	position:absolute;
+	top:25.5em;
+	left:42em;
+	width:6em;
+	height:1.5em;
+}
+
+.opt1{
+	font-size:1em;
+	position:absolute;
+	top:2em;
+	left:46em;
+	width:10em;
+	height:2em;
+}
+
+#holder #search{
+	position: relative;
+}
+
+#holder #results{
+	position: absolute;
+	width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	top: 5em;
+	height: auto;
+	min-height: 550px;
+	margin-top: 2em;
+}
+
+.boxes{
+	display: inline-block;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 70px;
+	margin-bottom: 2px;
+	padding-top: 1em;
+}
+
+.boxes p{
+	text-align: left;
+	padding-left: 2em;
+	font-size: 18px;
+}
+
+.boxes a{
+	text-align: left;
+	padding-left: 2em;
+	font-size: 18px;
+}
